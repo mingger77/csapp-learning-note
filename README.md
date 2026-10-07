@@ -2,31 +2,31 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> 这个项目记录着我学习 CSAPP 时写下的一些程序以及做的实验。
+> The preject records some program I wrote and labs I did when learning CSAPP.
 
-我所进行学习的 CSAPP lab 资料均来源于 [https://csapp.cs.cmu.edu/3e/labs.html](https://csapp.cs.cmu.edu/3e/labs.html)
+All resources I used for learning CSAPP lab are from [https://csapp.cs.cmu.edu/3e/labs.html](https://csapp.cs.cmu.edu/3e/labs.html)
 
 ---
 
-## 项目结构
+## Project Structure
 
 ```
 CSAPP/
-├── labs/                   # lab 文件
-│   ├── datalab/            # 储存 datalab 的文件夹
-│   └── ...                 # 未完待续
-├── README.md               # 项目指引
-└── other_files/            # 储存其他学习任务中写的文件
+├── labs/                   # Lab file
+│   ├── datalab/            # Folder to store datalab
+│   └── bomblab/            # To be continued
+├── README.md               # The file
+└── other_files/            # Restore files I worte to learn CSAPP
 ```
 
 ---
 
-## 项目进度
+## Project Progress
 
 | Lab | Completed | Grade |
 | :--- | :---: | :---: |
 | Data Lab | Yes | **56** |
-| Bomb Lab | No | - |
+| Bomb Lab | Yes | **6** |
 | Attack Lab | No | - |
 | Buffer Lab | No | - |
 | Architecture Lab | No | - |
@@ -38,12 +38,12 @@ CSAPP/
 
 ---
 
-## 许可证
+## License
 
-本项目使用 [MIT License](LICENSE) 开源协议。
+This project uses [MIT License](LICENSE) open-source license.
 
 ---
 
-## 附录
+## Appendix
 
-1. 我会在每个实验完成之后更新一次。
+1. I would upgrade the repository when I complete a lab.

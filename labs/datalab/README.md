@@ -1,27 +1,22 @@
 # DataLab
 
-这是CSAPP的第一个实验，资料来源于 [https://csapp.cs.cmu.edu/3e/labs.html](https://csapp.cs.cmu.edu/3e/labs.html) 中的 Self-Study Handout 部分。
+Here is the first lab of CSAPP and all resources come from the Seif-Study part of this URL [https://csapp.cs.cmu.edu/3e/labs.html](https://csapp.cs.cmu.edu/3e/labs.html) 
 
 ---
 
-## 项目结构
+## Project Structure
 
 ```
 datalab/
-├── datalab-handout/          # 解压后的 datalab 文件夹，已被我改动
-├── temp/                     # 用于存放进行一些验证及其他工作的临时程序的文件夹
-├── datalab-handout.tar       # 从官网上下载来的源压缩包
-└── README.md                 # datalab 项目指引
+├── datalab-handout/          # Decompressed datalab folder, and edited by me
+├── temp/                     # Store some temporary programs to do other job
+├── datalab-handout.tar       # Original compressed file downloaded from official URL
+└── README.md                 # The file
 ```
 
 ---
 
-## 额外问题
+## Additional Issues
 
-我的 datalab 得了 **56 / 62** 分，原因是 `floatPower2` 函数的运行时间超过了 10 秒，准确时间介于 11 ~ 12 秒之间，无法通过测试脚本。但是，`floatPower2` 函数的逻辑完全正确，在命令 `./btest -f floatPower2 -T 60` 下可以得满分 **4 / 4** 分，这可能是由虚拟机CPU处理器分配较少导致的。
+My datalab grade is **56 / 62** ，the reason of which is the runtine of function `floatPower2` exceeds 10 seconds，while concrete runtime is approximately between 11 to 12 seconds. So the function failed to pass the test script. However, the logic of the function `floatPower2` is correct. With command `./btest -f floatPower2 -T 60`, full score **4 / 4** will be gotten，because of the poor performance of virtual machine.
 
----
-
-## 许可证
-
-本项目使用 [MIT License](../../LICENSE) 开源协议。

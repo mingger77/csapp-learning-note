@@ -1,0 +1,30 @@
+phase 1: 
+    Border relations with Canada have never been better.
+
+phase 2: 
+    1 2 4 8 16 32
+
+phase 3:
+    answer 0: 0 207
+    answer 1: 1 311
+    answer 2: 2 707
+    answer 3: 3 256
+    answer 4: 4 389
+    answer 5: 5 206
+    answer 6: 6 682
+    answer 7: 7 327
+
+pahse 4:
+    answer 0: 0 0
+    answer 1: 1 0
+    answer 2: 2 0
+    answer 3: 3 0
+    answer 4: 4 0
+    answer 5: 5 0
+    answer 6: 6 0
+
+phase 5:
+    ionefg
+
+phase 6:
+    4 3 2 1 6 5
