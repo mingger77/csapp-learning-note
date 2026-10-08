@@ -15,13 +15,7 @@ phase 3:
     answer 7: 7 327
 
 pahse 4:
-    answer 0: 0 0
-    answer 1: 1 0
-    answer 2: 2 0
-    answer 3: 3 0
-    answer 4: 4 0
-    answer 5: 5 0
-    answer 6: 6 0
+    0 0
 
 phase 5:
     ionefg
