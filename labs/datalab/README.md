@@ -10,7 +10,6 @@ Here is the first lab of CSAPP and all resources come from the Seif-Study part o
 datalab/
 ├── datalab-handout/          # Decompressed datalab folder, and edited by me
 ├── temp/                     # Store some temporary programs to do other job
-├── datalab-handout.tar       # Original compressed file downloaded from official URL
 └── README.md                 # The file
 ```
 

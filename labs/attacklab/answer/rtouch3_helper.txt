@@ -1,0 +1,8 @@
+
+401999 -> ret
+401a06 -> mov rax rsp
+4019a2 -> mov rdi rax
+401383 -> pop rsi
+4019d6 -> call add_xy
+4019a2 -> mov rdi rax
+4018fa -> touch3

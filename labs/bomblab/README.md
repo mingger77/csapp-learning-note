@@ -7,10 +7,9 @@ Here is the second lab of CSAPP and all resources come from the Seif-Study part 
 ## Project Structure
 
 ```
-datalab/
+bomblab/
 ├── bomb/                     # Decompressed bomblab folder, and edited by me
 ├── temp/                     # Store some temporary programs to do other job
-├── bomb.tar                  # Original compressed file downloaded from official URL
 └── README.md                 # The file
 ```
 
@@ -23,6 +22,8 @@ datalab/
 2. Phase_3 and phase_4 have more than one answer. But I don't verify correctness of all possible answers of phase_4. So, I only write one answer of phase_4.
 
 3. I will write possible origin code of some functions in lab file `.\bomb\bomb.c`.
+
+---
 
 ## Feelings
 

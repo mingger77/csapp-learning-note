@@ -34,11 +34,63 @@
 /*
 All functions below are my inference.
 
+int string_length(char* input)
+{
+    if (input[0] == 0) return 0;
+
+    int length = 0;
+    while (input[length] != 0) {
+        length++;
+    }
+
+    return length;
+}
+
+int strings_not_equal(char* string_1, char* string_2)
+{
+    int length_1 = string_length(string_1)
+    int length_2 = string_length(string_2)
+    int flag = 1;
+
+    if (length_1 != length_2 || length_1 == 0) flag = 0;
+
+    for (int i = 0; i < length_1; i++) {
+        if (string_1[i] != string_2[i]) flag = 0;
+    }
+
+    return flag;
+}
+
+void read_six_number(char* input, int* nums)
+{
+    int count = sscanf(input, "%d %d %d %d %d %d", nums, nums + 1, nums + 2, nums + 3, nums + 4, nums + 5);
+    
+    if (count < 6) explode_bomb();
+}
+
 void phase_1(char* input)
 {
-    char* phase_1_answer = "";
-    if (strings_not_equal(input, phase_1_answer)) {
+    char* phase_1_answer = "Border relations with Canada have never been better.";
+    
+    if (strings_not_equal (input, phase_1_answer)) {
         explode_bomb();
+    }
+}
+
+void phase_2(char* input)
+{
+    int arr[6];
+    read_six_numbers(input, arr);
+    
+    if (arr[0] != 1) explode_bomb();
+
+    int i = 0;
+    int temp;
+    while (temp != arr[5]) {
+        temp = arr[i];
+        temp += temp;
+        if (temp != arr[i + 1]) explode_bomb();
+        i++
     }
 }
 
